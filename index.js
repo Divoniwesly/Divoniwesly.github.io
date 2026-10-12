@@ -202,11 +202,33 @@ window.addEventListener("keydown", e =>{
 
 var gameplay_4 = document.getElementById('game-4');
 window.addEventListener("keydown", e =>{
-    console.log(e);
+    // console.log(e);
     var x = e.keyCode;
     if (x == 220){
         gameplay_4.play();
     }else if(x === 16){
         gameplay_4.pause();
+    }
+});
+
+var saint_seiya = document.getElementById('ss');
+window.addEventListener("keydown", e =>{
+    // console.log(e);
+    var x = e.keyCode;
+    if (x == 51){
+        saint_seiya.play();
+    }else if(x === 52){
+        saint_seiya.pause();
+    }
+});
+
+var saint_seiya_indo = document.getElementById('ss-indo-5');
+window.addEventListener("keydown", e =>{
+    console.log(e);
+    var x = e.keyCode;
+    if (x == 53){
+        saint_seiya_indo.play();
+    }else if(x === 54){
+        saint_seiya_indo.pause();
     }
 });
